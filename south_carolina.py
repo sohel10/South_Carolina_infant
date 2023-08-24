@@ -34,9 +34,9 @@ def mortality_prediction(input_data):
 
 def main():
     # Giving a title
-    st.title('Welcome ealy infant mortality Prediction Web App based on Zip Code in South Carolina')
+    st.title('Welcome early infant mortality Prediction Web App based on Zip Code in South Carolina')
     st.markdown("<span style='font-size: 20px;'><strong>By Sohel Ahmed</strong></span>", unsafe_allow_html=True)
-    image = Image.open("south_infant.png")
+    image = Image.open("early.png")
     st.image(image, use_column_width=True)
     # Getting the input data from the user
     PCPs_per_1000 = st.text_input('PCPs per 1000(0-911) ')
@@ -46,7 +46,7 @@ def main():
     Number_of_Hospitals = st.text_input('Number of Hospital(0-6)')
     Number_of_Midwives = st.text_input('Number of Midwives(0-3)')
     Percent_Labor_Force_Participation = st.text_input('Percentage Labor Force Participation(0-89)')
-    Percent_Unemployed = st.text_input('Percentage Unemplyed(0-39)')
+    Percent_Unemployed = st.text_input('Percentage Unemployed(0-39)')
     Percent_Uninsured = st.text_input('Percentage Uninsured(0-37)')
     Percent_in_Poverty= st.text_input('Percentage in Poverty(0-100)')
     Percent_with_Kids_in_Poverty = st.text_input('Percentage With Kids in Poverty(0-100)')
