@@ -11,7 +11,7 @@ from PIL import Image
 
 # Loading the saved model
 
-loaded_model = pickle.load(open('C:/Users/sohel/Dropbox/Ariana/Interview_Data/Python_model/South_Carolina/trained_model.sav','rb'))
+#loaded_model = pickle.load(open('C:/Users/sohel/Dropbox/Ariana/Interview_Data/Python_model/South_Carolina/trained_model.sav','rb'))
 with open("gbc_model.pkl", "rb") as file:
     loaded_model = pickle.load(file)
 
